@@ -20,7 +20,7 @@ void print_binary(unsigned long int n)
 		;
 	for (; sh >= 0; sh--)
 	{
-		printf("%d", (n >> sh) & 1 ? '1' : '0');
+		printf((n >> sh) & 1 ? '1' : '0');
 	}
 }
 
