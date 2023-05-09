@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Cannot write to %s\n", argv[2]);
-			free(buffer);
+			free(buf);
 			exit(99);
 		}
 
